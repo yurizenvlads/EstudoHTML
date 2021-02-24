@@ -1,0 +1,111 @@
+:root {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+     
+}
+.container {
+    width: 80vw;
+    margin: auto;
+}
+/* Header */
+
+header {
+    background: #2d4a22;
+    padding: 3rem 0 10rem;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 100;
+}
+/* Titles */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+    font-weight: normal;
+    text-align: center;
+}
+/* Balance */
+
+#balance {
+    margin-top: -7rem;
+}
+#balance h2 {
+    color: white;
+    margin-top: 0;
+}
+/* Cards */
+.card {
+    background: white;
+    padding: 2rem 2rem;
+    text-align: justify;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    width: auto;
+
+}
+.card:hover{
+    background: gray;
+}
+.card.total:hover{
+    background: #2d4a22;
+}
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+}
+
+.card.total {
+    background: #49aa26;
+    color: white;
+}
+/* Table */
+table {
+    background: gray;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    width: 80vw;
+}
+#data-table {
+    width: 100%;
+    border-spacing:
+}
+table th {
+    background: #49aa26;
+    padding: 1rem 2rem;
+}
+table tbody tr{
+    opacity: 1
+}
+table tbody tr:hover{
+    opacity: 0.7
+}
+table td{
+    background: white;
+    text-align: center;
+}
+.expense{
+    color: red;
+}
+.income{
+    color: green;
+}
+/* Footer */
+footer {
+    background: #2d4a22;
+    text-align: center;
+    padding: 2rem;
+    }
